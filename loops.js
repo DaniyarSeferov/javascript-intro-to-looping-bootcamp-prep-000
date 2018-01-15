@@ -20,3 +20,6 @@ function whileLoop(number) {
   }
   return 'done'
 }
+
+var newArray = []
+forLoop(newArray)
