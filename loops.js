@@ -30,6 +30,7 @@ function doWhileLoop(newArray) {
     newArray.pop()
   }
   while(newArray.length > 0 && maybeTrue())
+  return newArray
 }
 
 var newArray = []
