@@ -21,5 +21,9 @@ function whileLoop(number) {
   return 'done'
 }
 
+function doWhileLoop(newArray) {
+  
+}
+
 var newArray = []
 forLoop(newArray)
