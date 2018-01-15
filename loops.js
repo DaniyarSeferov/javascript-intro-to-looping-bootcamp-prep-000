@@ -21,8 +21,15 @@ function whileLoop(number) {
   return 'done'
 }
 
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
 function doWhileLoop(newArray) {
-  
+  do {
+    
+  }
+  while(newArray.length > 0 && maybeTrue())
 }
 
 var newArray = []
