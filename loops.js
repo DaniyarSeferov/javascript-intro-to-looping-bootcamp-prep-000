@@ -1,5 +1,5 @@
 function forLoop(newArray) {
-  for (let i = 1; i < 25; i++) {
+  for (let i = 1; i <= 25; i++) {
     /*if (i === 0) {
       newArray[i] = "I am 0 strange loop."
     }
