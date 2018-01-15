@@ -4,10 +4,10 @@ function forLoop(newArray) {
       newArray[i] = "I am 0 strange loop."
     }
     else*/ if (i === 1) {
-      newArray[i] = "I am 1 strange loop."
+      newArray.push("I am 1 strange loop.")
     }
     else {
-      newArray[i] = "I am ${i} strange loops."
+      newArray.push("I am ${i} strange loops.")
     }
   }
   return newArray
