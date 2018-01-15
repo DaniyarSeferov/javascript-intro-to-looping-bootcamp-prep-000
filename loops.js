@@ -13,4 +13,8 @@ function forLoop(newArray) {
   return newArray
 }
 
-function 
+function whileLoop(number) {
+  while (number > 0) {
+    
+  }
+}
