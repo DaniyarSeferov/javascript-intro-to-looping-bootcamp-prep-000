@@ -10,6 +10,7 @@ function forLoop(newArray) {
       newArray.push("I am ${i} strange loops.")
     }
   }
+  console.log(newArray)
   return newArray
 }
 
